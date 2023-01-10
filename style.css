@@ -1,0 +1,381 @@
+body {
+    padding-left: 0px;
+    padding-right: 0;
+    background-color:#202124;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 90%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 0px;
+    margin-left: 30px;
+    font-size: 21px;
+    background: none;
+}
+
+.search_engine {
+    margin-top: 30px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    word-wrap: break-word;
+    border-radius: 20px;
+    border: 1px solid dimgrey;
+    height: 32px;
+    background-color: transparent;
+    color: #e8eaed;
+    margin: 30px;
+    font-size: 16px;
+    width: 600px;
+
+}
+.search_text {
+    background-color: transparent;
+    border: none;
+    margin-left: 20px;
+    width: 400px;  
+}
+
+.right_side{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 30px;
+    margin-left: 350px;
+    background-color: transparent;   
+}
+
+h1{
+    color: #ffffff;
+    font-size: 24x;
+}
+
+h2 {
+    font-size: 22px;
+    color:  white
+}
+h3 {
+    font-size: 20px;  
+    color: #8ab4f8;
+}
+
+h4 {
+    font-size: 13px;  
+    color: gray;
+}
+h5 {
+    font-size: 14px;  
+    color:#8ab4f8
+}
+
+h6{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.info_images{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: row;
+    font-size: 14px;
+    color:azure;
+    min-width: 0;
+    padding: 2px;
+    margin-left: 180px;  
+}
+
+p {
+    color: white;
+    font-size: 14px;
+}
+
+.dropdown {
+    background-color: transparent;
+    color: gray;
+    column-gap: 4px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    padding: 12px;
+    width: auto;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 200px;
+    border: none;
+    column-gap: 4px;
+}
+
+.button1{
+    background-color: transparent;
+    color:  #9aa0a6;
+    box-sizing: border-box;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    padding: 0 12px;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 8px;
+    line-height: 40px;
+    height: 35px;
+}
+
+.option{
+    border-bottom: 3px solid rgba(255, 255, 255, 0.037);
+}
+.container_2{
+    margin-left: 190px;
+    margin-top: 0;
+}
+input {
+    border-radius: none;
+}
+.text1{
+    background-color: #2A4165;
+    font-size: 12px;
+    padding: 12px 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+    margin-left: 50px;
+    margin-top: 0;
+    top: none;
+}
+.text2{
+    background-color: #2A4165;
+    font-size: 13px;
+    padding: 12px 20px;
+    border-radius: 50px;
+    width: 200px;
+}
+
+.text3{
+    background-color: #2A4165;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 50px;
+}
+.text4{
+    background-color: #2A4165;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 50px;
+}
+
+.round_img{
+    border-radius: 50px;
+}
+.Messi_img{
+    margin-top: 40px;
+    gap: 20px;
+    margin-left: 180px;
+}    
+.messi_img1{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.mirror{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.messi_img5{
+    border-radius: 10px;
+}
+a {
+    font-size: 12px;
+    white-space: normal;
+    font-size: 16px;
+    font-weight: 300px;
+    line-height: 24px;
+    color: gray;
+    text-decoration: none;
+}
+
+span {
+    color:#8ab4f8;
+    font-size: 18px;
+}
+p{
+    font-size: 16px;
+}
+
+.heading_2{
+    font-size: 32px;
+    line-height: 24px; 
+    width: 300px;
+    padding: 5px;
+    margin-left: 180px;
+} 
+
+.both-side{
+    display: flex;
+    flex-direction: row;
+    width: 400px; 
+  
+}
+.left-right{
+    display: flex;
+    flex-direction: row;
+    width: 400px; 
+}
+.left_side,.daily_news{
+    padding-right: 20px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+    margin-left: 180px;    
+}
+.News_celeb{
+    margin-left: 180px;
+    margin-right: 700px;
+    margin-top: -1150px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.037);
+}
+.stats{
+    margin-top: 10px;
+    display: grid;
+    margin-left: -380px;
+    padding-left: 20px;
+    margin-top: 80px;
+    margin-right: 5px;
+}  
+.middle_part{
+   margin-left: 20px;
+   padding-left: 20px;
+   margin-top: 20px;
+   margin-right: 50px;
+   border-left: 3px solid rgba(255, 255, 255, 0.037);
+   height: 350px;
+}
+
+.d_star{
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-right: 50px;
+    border-left: 3px solid rgba(255, 255, 255, 0.037);
+    height: 250px;
+    width: 900px;
+    font-weight: 400px;
+    font-size: 18px;
+ }
+.marca{
+   margin-top: 20px; 
+} 
+.image_m{
+    margin-top: 0;
+    float: right;
+}
+
+.goal_com{
+   margin-left: 20px;
+   padding-left: 20px;
+   margin-top: 20px;
+   margin-right: 10px;
+}
+
+.right_side2{
+    margin-left: 90px;
+    border-left: 3px solid rgba(255, 255, 255, 0.037);
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+    height: 100%;
+    margin-bottom: 30px;   
+}
+
+.image8,.image9{
+    border-radius: 12px;
+    float: right;
+}
+.marca_img{
+    background-color: #ffffff;
+    color: #041124;
+    margin-top: 20px;
+}
+
+.profiles1{
+    margin-top: 20px; 
+    gap: 50px;
+    width: 400px;
+    display: flex;
+    grid-template-columns: 100px 100px 80px;
+}
+.profile{
+    border-top: 3px solid rgba(255, 255, 255, 0.037);
+}
+
+.account{
+    display: grid;
+    margin-top: 50px;
+    margin-left: -300px;
+    grid-template-columns: 100px 100px 100px
+}
+
+.people_search{
+    margin-left: -40px;
+    padding-left: 20px;
+    width: 500px;
+} 
+.heading3{
+    font-size: 24px;
+    width: 300px;
+    margin-left: -500px;
+    padding-left: 20px;
+    margin-top: 550px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.link{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    margin-top: 10px;
+    gap: 40px;
+}
+.see_more{
+    margin-left: 0;
+}
+
+.claim{
+    margin-bottom: 20px;
+}
+
+.container_4,.container_5,.container_6{
+    margin-left: 190px;
+}
+.g-tag{
+    border: 1px;
+    padding: 2px;
+    width: 70%;
+    margin-bottom: 10px; 
+}
+.container_6{
+    align-items: center;
+    justify-content: center;
+}
+li{
+    list-style-type: none;  
+}
+
+.summary{
+    color: gray;
+    font-size: 20px;
+}
+
+.page1{
+    padding: 40px 10px 10px 10px;
+    font-size: 22px;
+}
+.page2,.page3,.page4{
+    padding: 10px 10px;
+    font-size: 22px; 
+}
+.p1,.p2,.p4{
+   flex-basis: 40%;
+   max-width: 100%;
+}
+
